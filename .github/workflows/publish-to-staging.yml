@@ -23,10 +23,20 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    
-    - name: Checkout staging branch from veesquared.github.io repo
-    - uses: actions/checkout@v4
+    - name: Checkout veesquared.github.io
+      uses: actions/checkout@v4
       with:
         repository: veesquared/veesquared.github.io
-        ref: staging
+        token: ${{ secrets.GITHUB_TOKEN }}
         path: staging
+    - run: | 
+        git config --global user.name "github-actions"
+        git config --global user.email "12947066+VeeSquared@users.noreply.github.com"
+        cd staging
+        git pull
+        git switch staging
+        rm -r *
+        rsync -av --progress ../build/. /staging
+        git add .
+        git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
+        git push  
