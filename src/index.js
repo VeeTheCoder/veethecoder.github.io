@@ -7,11 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import 'normalize.css';
 import './animate.css';
 import 'bootstrap/dist/css/bootstrap.css';
-//import './img/icons/css/ionicons.css';
-//import './img/font-awesome/css/font-awesome.css';
 import 'lightbox2/dist/css/lightbox.min.css'
 import './index.css';
-//
+
 ////import js libraries
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';
@@ -27,11 +25,6 @@ import Projects from './components/projects.jsx';
 import Skills from './components/skills.jsx';
 import Education from './components/education.jsx';
 import Footer from './components/footer.jsx';
-
-
-//import Contact from './components/contact.jsx';
-//import BackToTop from './components/back-top.jsx';
-//import Preloader from './components/preloader';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
