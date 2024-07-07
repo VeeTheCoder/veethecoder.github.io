@@ -1,0 +1,106 @@
+{
+    "skills":[
+        {
+            "skill-id": "programming-languages",
+            "skill-name": "Programming Languages",
+            "skill-list": [
+                "C#",
+                "Python",
+                "PHP",
+                "JavaScript",
+                "TypeScript",
+                "HTML",
+                "SQL"
+            ]
+        },
+        {
+            "skill-id": "development-tools",
+            "skill-name": "Development Tools",
+            "skill-list": [
+                "Visual Studio",
+                "Visual Studio Code",
+                "SourceTree",
+                "GitKraken",
+                "Postman",
+                "Filezilla"
+            ]
+        },     
+        {
+            "skill-id": "ci-cd-tools",
+            "skill-name": "CI/CD Tools",
+            "skill-list": [
+                "Docker",
+                "Kubernetes",
+                "Terraform",
+                "BitBucket Pipelines",
+                "Github Actions",
+                "TeamCity",
+                "Octopus Deploy",
+                "Git"
+            ]
+        },
+        {
+            "skill-id": "frameworks",
+            "skill-name": "Frameworks",
+            "skill-list": [
+                "ASP.NET Core",
+                "Entity Framework",
+                "AngularJS"
+            ]
+        },
+        {
+            "skill-id": "databases",
+            "skill-name": "Databases",
+            "skill-list": [
+                "MS SQL Server",
+                "MySQL",
+                "Oracle Database 11g"
+            ]
+        },
+        {
+            "skill-id": "sdk",
+            "skill-name": "SDK",
+            "skill-list": [
+                "Android SDK",
+                "iOS SDK"
+            ]
+        },
+        {
+            "skill-id": "os-environments",
+            "skill-name": "OS Environments",
+            "skill-list": [
+                "Linux (Debian)",
+                "macOS",
+                "Windows"
+            ]
+        },
+        {
+            "skill-id": "libraries",
+            "skill-name": "Libraries",
+            "skill-list": [
+                "ReactJS"
+            ]
+        }, 
+        {
+            "skill-id": "cloud-services",
+            "skill-name": "Cloud Services",
+            "skill-list": [
+                "AWS Cloudwatch",
+                "AWS EC2",
+                "AWS ECR",
+                "AWS ECS",
+                "AWS EventBridge",
+                "AWS IAM",
+                "AWS Lambda",
+                "AWS RDS",
+                "AWS Route 53",
+                "AWS S3",
+                "AWS SNS",
+                "AWS SQS",
+                "AWS SSM",
+                "AWS Secrets Manager",
+                "AWS VPC"
+            ]
+        }
+    ]
+}
