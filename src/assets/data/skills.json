@@ -1,14 +1,12 @@
 {
     "skills":[
         {
-            "skill-type": "Programming Languages",
+            "skill-id": "programming-languages",
+            "skill-name": "Programming Languages",
             "skill-list": [
                 "C#",
                 "Python",
                 "PHP",
-                "Go",
-                "Swift",
-                "Kotlin",
                 "JavaScript",
                 "TypeScript",
                 "HTML",
@@ -16,28 +14,20 @@
             ]
         },
         {
-            "skill-type": "Frameworks",
+            "skill-id": "development-tools",
+            "skill-name": "Development Tools",
             "skill-list": [
-                "ASP.NET Core",
-                "Entity Framework",
-                "AngularJS"
+                "Visual Studio",
+                "Visual Studio Code",
+                "SourceTree",
+                "GitKraken",
+                "Postman",
+                "Filezilla"
             ]
-        },
+        },     
         {
-            "skill-type": "Libraries",
-            "skill-list": [
-                "ReactJS"
-            ]
-        },  
-        {
-            "skill-type": "SDK",
-            "skill-list": [
-                "Android SDK",
-                "iOS SDK"
-            ]
-        },      
-        {
-            "skill-type": "CI/CD Tools",
+            "skill-id": "ci-cd-tools",
+            "skill-name": "CI/CD Tools",
             "skill-list": [
                 "Docker",
                 "Kubernetes",
@@ -50,20 +40,66 @@
             ]
         },
         {
-            "skill-type": "Cloud Services",
+            "skill-id": "frameworks",
+            "skill-name": "Frameworks",
             "skill-list": [
-                "AWS (EC2, ECS, ECR, RDS, S3, IAM, Lambda, SNS, SQS, Secrets Manager, Systems Manager, Cloudwatch, EventBridge)"
+                "ASP.NET Core",
+                "Entity Framework",
+                "AngularJS"
             ]
         },
         {
-            "skill-type": "Development Tools",
+            "skill-id": "databases",
+            "skill-name": "Databases",
             "skill-list": [
-                "Visual Studio",
-                "Visual Studio Code",
-                "SourceTree",
-                "GitKraken",
-                "Postman",
-                "Filezilla"
+                "MS SQL Server",
+                "MySQL",
+                "Oracle Database 11g"
+            ]
+        },
+        {
+            "skill-id": "sdk",
+            "skill-name": "SDK",
+            "skill-list": [
+                "Android SDK",
+                "iOS SDK"
+            ]
+        },
+        {
+            "skill-id": "os-environments",
+            "skill-name": "OS Environments",
+            "skill-list": [
+                "Linux (Debian)",
+                "macOS",
+                "Windows"
+            ]
+        },
+        {
+            "skill-id": "libraries",
+            "skill-name": "Libraries",
+            "skill-list": [
+                "ReactJS"
+            ]
+        }, 
+        {
+            "skill-id": "cloud-services",
+            "skill-name": "Cloud Services",
+            "skill-list": [
+                "AWS Cloudwatch",
+                "AWS EC2",
+                "AWS ECR",
+                "AWS ECS",
+                "AWS EventBridge",
+                "AWS IAM",
+                "AWS Lambda",
+                "AWS RDS",
+                "AWS Route 53",
+                "AWS S3",
+                "AWS SNS",
+                "AWS SQS",
+                "AWS SSM",
+                "AWS Secrets Manager",
+                "AWS VPC"
             ]
         }
     ]

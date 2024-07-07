@@ -2,6 +2,7 @@
     "institution": "University of California, San Diego",
     "degree": "B.S. Computer Engineering",
     "coursework": [{
+        "course-id": "cse-courses",
         "course-type": "Computer Science And Engineering Courses",
         "courses": [
             "Fluency in Information Technology",
@@ -24,6 +25,7 @@
         ]
     },
     {
+        "course-id": "ece-courses",
         "course-type": "Electrical Engineering Courses",
         "courses": [
             "Intro to Analog Design",
@@ -34,6 +36,7 @@
         ]
     },
     {
+        "course-id": "economic-courses",
         "course-type": "Economic Courses",
         "courses": [
             "Principles of Microeconomics",
@@ -41,12 +44,14 @@
         ]
     },
     {
+        "course-id": "management-courses",
         "course-type": "Management Courses",
         "courses": [
             "Business Project Management"
         ]
     },
     {
+        "course-id": "mathematic-courses",
         "course-type": "Mathematics Courses",
         "courses": [
             "Discrete Mathematics",
@@ -59,6 +64,7 @@
         ]
     },
     {
+        "course-id": "physics-courses",
         "course-type": "Physics Courses",
         "courses": [
             "Mechanics",
