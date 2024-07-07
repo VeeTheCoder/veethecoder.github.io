@@ -27,7 +27,7 @@
         },     
         {
             "skill-id": "ci-cd-tools",
-            "skill-name": "CI/CD Tools",
+            "skill-name": "DevOps Tools",
             "skill-list": [
                 "Docker",
                 "Kubernetes",
