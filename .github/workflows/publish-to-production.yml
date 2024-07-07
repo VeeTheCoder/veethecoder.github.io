@@ -1,4 +1,4 @@
-name: publish to production
+name: publish-to-production
 
 on: workflow_dispatch
 
