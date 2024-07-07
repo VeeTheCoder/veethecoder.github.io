@@ -18,6 +18,7 @@ jobs:
         cd staging
         git fetch
         git switch staging
+        rm -R .git
         cd ..
     - name: Checkout veesquared.github.io production and deploy production
       uses: actions/checkout@v4
