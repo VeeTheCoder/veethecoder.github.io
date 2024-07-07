@@ -41,7 +41,7 @@ jobs:
         rm -r *
         cp -a ../build/. ./
         touch tmpfile
-        git diff-tree --name-only > tmpfile
+        git diff --name-only > tmpfile
         minimumsize=0
         tmpfilesize=$(wc -c <"tmpfile")
         if [ $actualsize -ge $minimumsize ]; then
