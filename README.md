@@ -25,7 +25,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
 ### `docker build -t vees-portfolio-react-app .`
 
 Builds the docker image from the Dockerfile for the react app
@@ -33,3 +32,8 @@ Builds the docker image from the Dockerfile for the react app
 ### `docker run -p 3000:3000 vees-portfolio-react-app`
 
 Creates and starts a docker container executing the image that was built and specified
+
+### `docker compose up`
+
+Builds the docker image from the Dockerfile for the react app. Creates and starts a docker container executing the image that was built and specified
+
