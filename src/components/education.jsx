@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../assets/img/education.png";
+import educationImage from "../assets/img/education.png";
 import educationData from '../assets/data/education.json';
 
 class Education extends React.Component {
@@ -24,7 +24,7 @@ class Education extends React.Component {
             <div className="col-sm-12">
                 <div className="row">
                 <div className="col-md-2">
-                <img className="img-fluid" src={myImage} />
+                <img className="img-fluid" alt="education image" src={educationImage} />
                 </div>
                   <div className="col-sm-10">
                     <div className="about-me pt-4 pt-md-0">

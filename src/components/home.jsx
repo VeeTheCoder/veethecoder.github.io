@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactTyped,Typed } from "react-typed";
-import banner from "../assets/img/banner.jpg";
+import { ReactTyped } from "react-typed";
+import bannerImage from "../assets/img/banner.jpg";
 import bannerData from '../assets/data/banner.json';
 
 class Home extends React.Component {
@@ -13,7 +13,7 @@ class Home extends React.Component {
 
   render() {
     return (
-       <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+banner+")"}}>
+       <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bannerImage+")"}}>
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">

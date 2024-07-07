@@ -1,10 +1,6 @@
 import React from "react";
 
 class Footer extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <section id="Footer" className="p-1 bg-dark-override text-white route">
