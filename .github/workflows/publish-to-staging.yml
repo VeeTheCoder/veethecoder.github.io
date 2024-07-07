@@ -36,7 +36,7 @@ jobs:
         git fetch
         git switch staging
         rm -r *
-        cp -a ../build/. .
+        cp -a ../build/. ./
         git add .
         git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
         git push  
