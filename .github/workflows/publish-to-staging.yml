@@ -33,7 +33,7 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "12947066+VeeSquared@users.noreply.github.com"
         cd staging
-        git pull
+        git fetch
         git switch staging
         rm -r *
         cp -a ../build/. ./
