@@ -36,7 +36,7 @@ jobs:
         touch tmpfile
         git diff --name-only > tmpfile
         minimumsize=0
-        tmpfilesize=$(wc -c <"tmpfile")
+        tempfilesize=$(wc -c <"tmpfile")
         if [ $tempfilesize -ge $minimumsize ]; then
         echo tempfilesize = $tempfilesize
         rm tmpfile
