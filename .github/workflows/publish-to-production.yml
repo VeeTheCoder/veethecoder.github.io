@@ -37,7 +37,8 @@ jobs:
         git diff --name-only > tmpfile
         minimumsize=0
         tmpfilesize=$(wc -c <"tmpfile")
-        if [ $actualsize -ge $minimumsize ]; then
+        if [ $tempfilesize -ge $minimumsize ]; then
+        echo tempfilesize = $tempfilesize
         rm tmpfile
         git add .
         git commit -m "Deploy to Production - RunId-"${{ github.run_id }}
