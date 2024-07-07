@@ -44,7 +44,7 @@ jobs:
         git diff --name-only > tmpfile
         minimumsize=0
         tempfilesize=$(wc -c <"tmpfile")
-        if [ $tempfilesize -ge $minimumsize ]; then
+        if [ $tempfilesize -gt $minimumsize ]; then
         echo tempfilesize = $tempfilesize
         rm tmpfile
         git add .
