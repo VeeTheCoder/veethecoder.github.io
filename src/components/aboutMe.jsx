@@ -13,7 +13,7 @@ class AboutMe extends React.Component {
   render() {
     return (
       <section id="about-me" className="p-5 sect-pt4 route">
-        <div className="container">
+        <div className="container pt-5 ">
           <div className="row">
             <div className="col-sm-12">
                 <div className="row">
@@ -21,7 +21,7 @@ class AboutMe extends React.Component {
                 <img className="img-fluid" alt="avatar" src={avatarImage} />
                 </div>
                   <div className="col-md-8">
-                    <div className="about-me pt-4 pt-md-0">
+                    <div className="about-me pt-5 pt-md-0">
                     <h5 className="section-title font-weight-bold">About Me</h5>
                       <p>{this.state.aboutData["about-me"]}</p>
                     </div>

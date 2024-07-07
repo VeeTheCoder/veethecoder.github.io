@@ -15,7 +15,7 @@ class Skills extends React.Component {
         <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Skills</h3>
+                <h3 className="title-a pt-5">Skills</h3>
               </div>
             </div>
           </div>
