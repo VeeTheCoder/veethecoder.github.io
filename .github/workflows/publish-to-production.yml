@@ -4,6 +4,9 @@ on: workflow_dispatch
 
 jobs:
   build:
+    
+    runs-on: ubuntu-latest
+
     steps:
     - name: Checkout veesquared.github.io staging
       uses: actions/checkout@v4
