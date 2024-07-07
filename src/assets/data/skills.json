@@ -45,7 +45,9 @@
             "skill-list": [
                 "ASP.NET Core",
                 "Entity Framework",
-                "AngularJS"
+                "AngularJS",
+                "Laravel",
+                "Symfony"
             ]
         },
         {
@@ -55,14 +57,6 @@
                 "MS SQL Server",
                 "MySQL",
                 "Oracle Database 11g"
-            ]
-        },
-        {
-            "skill-id": "sdk",
-            "skill-name": "SDK",
-            "skill-list": [
-                "Android SDK",
-                "iOS SDK"
             ]
         },
         {
