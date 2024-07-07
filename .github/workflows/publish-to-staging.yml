@@ -28,16 +28,19 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     
-    - name: Deploy to staging
-    - run: git config --global user.name "Vee - Github Actions"
-    - run: git config --global user.email "12947066+VeeSquared@users.noreply.github.com"
-    - run: gh repo clone VeeSquared/veesquared.github.io
-    - run: cd veesquared.github.io
-    - run: git fetch
-    - run: git switch staging
-    - run: git pull
-    - run: rm -r *
-    - run: cp -a ../build/. ./
-    - run: git add .
-    - run: git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
-    - run: git push
+    - name: Checkout veesquared.github.io
+    uses: actions/checkout@v4
+    with:
+      repository: veesquared/veesquared.github.io
+      token: ${{ secrets.GITHUB_TOKEN }}
+      path: staging      
+    - run: | 
+        git config --global user.name "github-actions"
+        git config --global user.email "12947066+VeeSquared@users.noreply.github.com"
+        cd staging
+        git pull
+        rm -r *
+        cp -a ../build/. ./
+        git add .
+        git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
+        git push
