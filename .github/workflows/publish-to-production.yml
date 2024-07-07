@@ -4,31 +4,31 @@ on: workflow_dispatch
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
-    - name: Clean production
-    - run: | 
-        rm -r *
-    - name: Checkout veesquared.github.io and deploy production
+    - name: Checkout veesquared.github.io staging
       uses: actions/checkout@v4
       with:
         repository: veesquared/veesquared.github.io
         token: ${{ secrets.GITHUB_TOKEN }}
         path: staging
     - run: | 
+        cd staging
+        git fetch
+        git switch staging
+        cd ..
+    - name: Checkout veesquared.github.io production and deploy production
+      uses: actions/checkout@v4
+      with:
+        repository: veesquared/veesquared.github.io
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: production
+    - run: | 
         git config --global user.name "github-actions"
         git config --global user.email "12947066+VeeSquared@users.noreply.github.com"
-        cd staging
-        git pull
-        git switch staging
-        cp -a /. ../.
-        rm -R staging
+        cd production
+        git fetch
+        git switch production
+        cp -a ../staging/. .
         git add .
-        git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
+        git commit -m "Deploy to Production - RunId-"${{ github.run_id }}
         git push  
