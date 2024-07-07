@@ -15,7 +15,7 @@ class Education extends React.Component {
         <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a text-white">Education</h3>
+                <h3 className="title-a text-white pt-4">Education</h3>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ class Education extends React.Component {
                 <img className="img-fluid" alt="education" src={educationImage} />
                 </div>
                   <div className="col-sm-10">
-                    <div className="about-me pt-4 pt-md-0">
+                    <div className="about-me pt-5 pt-md-0">
                       
                         <div class="row">
                         <div className="col-sm">
