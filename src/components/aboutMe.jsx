@@ -1,5 +1,5 @@
 import React from "react";
-import myAvatar from "../assets/img/avatar.png";
+import avatarImage from "../assets/img/avatar.png";
 import aboutData from '../assets/data/about-me.json';
 
 class AboutMe extends React.Component {
@@ -18,7 +18,7 @@ class AboutMe extends React.Component {
             <div className="col-sm-12">
                 <div className="row">
                 <div className="col-md-4">
-                <img className="img-fluid" src={myAvatar} />
+                <img className="img-fluid" alt="avatar image" src={avatarImage} />
                 </div>
                   <div className="col-md-8">
                     <div className="about-me pt-4 pt-md-0">
