@@ -23,7 +23,7 @@ class Skills extends React.Component {
             <div className="col-sm-12">
                 <div className="row">
                 <div className="col-md-2">
-                <img className="img-fluid" alt="skills image" src={skillsImage} />
+                <img className="img-fluid" alt="skills" src={skillsImage} />
                 </div>
                   <div className="col-sm-10">
                     <div className="about-me pt-4 pt-md-0">

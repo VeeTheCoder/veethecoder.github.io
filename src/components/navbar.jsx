@@ -2,10 +2,6 @@ import React from "react";
 import * as $ from 'jquery';
 
 class Navbar extends React.Component {
-  constructor() {
-    super();
-  }
-
   componentDidMount() {
     const nav = $("nav");
     let navHeight = nav.outerHeight();

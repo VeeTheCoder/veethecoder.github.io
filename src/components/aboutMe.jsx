@@ -18,7 +18,7 @@ class AboutMe extends React.Component {
             <div className="col-sm-12">
                 <div className="row">
                 <div className="col-md-4">
-                <img className="img-fluid" alt="avatar image" src={avatarImage} />
+                <img className="img-fluid" alt="avatar" src={avatarImage} />
                 </div>
                   <div className="col-md-8">
                     <div className="about-me pt-4 pt-md-0">
