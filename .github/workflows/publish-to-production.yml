@@ -14,7 +14,7 @@ jobs:
     steps:
     - name: Clean production
     - run: | 
-      rm -r *
+        rm -r *
     - name: Checkout veesquared.github.io and deploy production
       uses: actions/checkout@v4
       with:
