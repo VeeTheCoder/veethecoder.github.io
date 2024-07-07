@@ -45,6 +45,7 @@ jobs:
         minimumsize=0
         tmpfilesize=$(wc -c <"tmpfile")
         if [ $actualsize -ge $minimumsize ]; then
+        rm tmpfile
         git add .
         git commit -m "Automated Deploy to Staging - RunId-"${{ github.run_id }}
         git push
