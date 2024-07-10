@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Muli-Regular' !important;
+  font-family: 'Muli-Regular, Tahoma, Verdana, sans-serif' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
