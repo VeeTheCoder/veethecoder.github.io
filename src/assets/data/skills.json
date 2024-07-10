@@ -30,7 +30,6 @@
             "skill-name": "DevOps Tools",
             "skill-list": [
                 "Docker",
-                "Kubernetes",
                 "Terraform",
                 "BitBucket Pipelines",
                 "Github Actions",
