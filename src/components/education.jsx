@@ -42,7 +42,7 @@ class Education extends React.Component {
                         <div class="row">
                     {this.state.educationData.coursework.map(coursework => {
                         return (
-                            <div className="col-sm-6 mt-5">
+                            <div className="col-sm-12 col-lg-6 mt-5">
                             <p key={coursework["course-id"]}>
                             <h4 className="font-weight-bold text-white">{coursework["course-type"]}</h4>
                             <ul className="list-unstyled">
