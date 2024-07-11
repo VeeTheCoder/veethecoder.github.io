@@ -20,6 +20,7 @@
                 "Visual Studio",
                 "Visual Studio Code",
                 "SourceTree",
+                "SmartGit",
                 "GitKraken",
                 "Postman",
                 "Filezilla"
@@ -75,17 +76,24 @@
             ]
         }, 
         {
+            "skill-id": "runtime-environments",
+            "skill-name": "Runtime Environments",
+            "skill-list": [
+                "Node.js"
+            ]
+        },
+        {
             "skill-id": "cloud-services",
             "skill-name": "Cloud Services",
             "skill-list": [
                 "AWS Cloudwatch",
+                "AWS DynamoDB",
                 "AWS EC2",
                 "AWS ECR",
                 "AWS ECS",
                 "AWS EventBridge",
                 "AWS IAM",
                 "AWS Lambda",
-                "AWS RDS",
                 "AWS Route 53",
                 "AWS S3",
                 "AWS SNS",
