@@ -30,7 +30,7 @@ class Skills extends React.Component {
                         <div class="row">
                     {this.state.skillsData.skills.map(skills => {
                         return (
-                            <div className="col-sm-6">
+                            <div className="col-sm-12 col-md-6">
 
                         <p key={skills["skill-type"]}>
                             <h4 className="font-weight-bold">{skills["skill-name"]}</h4>
