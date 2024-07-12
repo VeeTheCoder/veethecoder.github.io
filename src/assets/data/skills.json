@@ -86,6 +86,7 @@
             "skill-id": "cloud-services",
             "skill-name": "Cloud Services",
             "skill-list": [
+                "AWS API Gateway",
                 "AWS Cloudwatch",
                 "AWS DynamoDB",
                 "AWS EC2",
