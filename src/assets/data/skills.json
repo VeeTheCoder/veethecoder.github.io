@@ -5,6 +5,7 @@
             "skill-name": "Programming Languages",
             "skill-list": [
                 "C#",
+                "Visual Basic",
                 "Python",
                 "PHP",
                 "JavaScript",
@@ -19,11 +20,11 @@
             "skill-list": [
                 "Visual Studio",
                 "Visual Studio Code",
+                "PhpStorm",
                 "SourceTree",
                 "SmartGit",
                 "GitKraken",
-                "Postman",
-                "Filezilla"
+                "Postman"
             ]
         },     
         {
@@ -31,6 +32,7 @@
             "skill-name": "DevOps Tools",
             "skill-list": [
                 "Docker",
+                "Kubernetes",
                 "Terraform",
                 "BitBucket Pipelines",
                 "Github Actions",
@@ -45,7 +47,6 @@
             "skill-list": [
                 "ASP.NET Core",
                 "Entity Framework",
-                "AngularJS",
                 "Laravel",
                 "Symfony"
             ]
@@ -55,8 +56,7 @@
             "skill-name": "Databases",
             "skill-list": [
                 "MS SQL Server",
-                "MySQL",
-                "Oracle Database 11g"
+                "MySQL"
             ]
         },
         {
@@ -72,16 +72,9 @@
             "skill-id": "libraries",
             "skill-name": "Libraries",
             "skill-list": [
-                "ReactJS"
+                "React"
             ]
         }, 
-        {
-            "skill-id": "runtime-environments",
-            "skill-name": "Runtime Environments",
-            "skill-list": [
-                "Node.js"
-            ]
-        },
         {
             "skill-id": "cloud-services",
             "skill-name": "Cloud Services",
