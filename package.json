@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:VeeTheCoder/veethecoder.github.io.git",
+  "author": "Vee <12947066+VeeTheCoder@users.noreply.github.com>",
+  "license": "MIT"
 }
