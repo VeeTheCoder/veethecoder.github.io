@@ -13,4 +13,8 @@ export default defineConfig({
     // eslint-disable-next-line no-undef
     process.env.INLINE ? viteSingleFile() : null,
   ].filter(Boolean),
+  test: {
+    globals: true,
+    environment: 'happy-dom'
+  },
 });
