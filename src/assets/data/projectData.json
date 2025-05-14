@@ -1,0 +1,33 @@
+{
+    "projects": [
+        {
+            "project_name": "RegistrarNOW!",
+            "project_description": "RegistrarNOW! is a web application which performs as a basic university registration system for Administrators, Professors, and Students. The application allows students to send and receive messages from Academic Advising. Users can login, enroll in classes, view course listings, update personal info, view grades with their class rank, class grade distribution and final schedule.",
+            "tech_stack": [
+                "C#",
+                "ASP.NET",
+                "KnockoutJS",
+                "HTML",
+                "CSS",
+                "MSSQL"
+            ]
+        },        
+        {
+            "project_name": "Dopamemes",
+            "project_description": "Dopamemes is a web app which allows users to create, upload, and organize memes. There is also a chrome extension that complements this web application. This web app features saving memes in albums, sorting memes, and rating memes. Users can also drag and drop and upload memes from their desktop and save it to their only library.",
+            "tech_stack": [
+                "Firebase",
+                "AngularJS",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "project_name": "SHA-1 Hash Algorithm",
+            "project_description": "This is a simulated design of the SHA-1 Hash Algorithm developed in Verilog. The simulated design takes input of a message and computes it into a 160-bit SHA1 hash. The simulated design utilizes multiple pipelines to increase performance of the algorithm and reduce area delay between the execution of each instruction.",
+            "tech_stack": [
+                "Verilog"
+            ]
+        }
+    ]
+}

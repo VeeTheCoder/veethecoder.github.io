@@ -1,0 +1,74 @@
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 21;
+}
+
+.bg-image::after{
+  background: rgba(0,0,0,.8);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.intro .intro-content {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.intro .overlay-intro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+/* Socials */
+
+
+.img-social {
+  height: auto;
+  width: 100px;
+  color:white;
+  fill: #fff;
+  transition: all .4s ease 0s;
+  -webkit-transition: all .4s ease 0s;
+}
+
+.img-social :hover {
+  fill: #3BB9FF;
+}

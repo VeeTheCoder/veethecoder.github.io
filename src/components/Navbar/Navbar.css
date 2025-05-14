@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #0b101f;
+  opacity: 90%;
+}
+
+.menu {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.menuRotate.active {
+  transform: rotate(45deg);
+}
+.menuRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#fff;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.menu .top {
+  stroke-dasharray: 40 139;
+}
+.menu .bottom {
+  stroke-dasharray: 40 180;
+}
+.menu.active .top {
+  stroke-dashoffset: -98px;
+}
+.menu.active .bottom {
+  stroke-dashoffset: -138px;
+}
