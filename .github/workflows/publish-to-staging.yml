@@ -39,7 +39,7 @@ jobs:
         git fetch
         git switch staging
         rm -r *
-        cp -a ../build/. ./
+        cp -a ../dist/. ./
         touch tmpfile
         git diff --name-only > tmpfile
         minimumsize=0
