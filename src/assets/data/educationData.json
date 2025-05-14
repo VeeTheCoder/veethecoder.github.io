@@ -1,0 +1,145 @@
+{
+    "institution": "University of California, San Diego",
+    "degree": "B.S. Computer Engineering",
+    "coursework": [{
+        "course_id": "cse_courses",
+        "course_type": "Computer Science And Engineering Courses",
+        "courses": [
+            "Fluency in Information Technology",
+            "Basic Data Structures and Object-Oriented Design",
+            "Software Tools and Techniques Laboratory",
+            "Computer Organization and Systems Programming",
+            "Advanced Data Structures",
+            "Design and Analysis of Algorithms",
+            "Software Engineering",
+            "Principles of Computer Operating Systems",
+            "Web Client Languages",
+            "Server side Web Applications",
+            "Components and Design Techniques for Digital Systems",
+            "Digital Systems Laboratory",
+            "Intro to Computer Architecture",
+            "Project in Computer Architecture",
+            "Intro to Artificial Intelligence: Statistical Approaches",
+            "Mobile Development",
+            "Enterprise Web Applications"
+        ]
+    },
+    {
+        "course_id": "ece_courses",
+        "course_type": "Electrical Engineering Courses",
+        "courses": [
+            "Intro to Analog Design",
+            "Circuits and Systems",
+            "Components and Circuits Laboratory",
+            "Linear Systems Fundamentals",
+            "Advanced Digital Design Project"
+        ]
+    },
+    {
+        "course_id": "economic_courses",
+        "course_type": "Economic Courses",
+        "courses": [
+            "Principles of Microeconomics",
+            "Econometrics A"
+        ]
+    },
+    {
+        "course_id": "management_courses",
+        "course_type": "Management Courses",
+        "courses": [
+            "Business Project Management"
+        ]
+    },
+    {
+        "course_id": "mathematic_courses",
+        "course_type": "Mathematics Courses",
+        "courses": [
+            "Discrete Mathematics",
+            "Mathematics for Algorithms and Systems",
+            "Calculus A",
+            "Calculus B",
+            "Calculus and Analytic Geometry",
+            "Intro to Differential Equations",
+            "Linear Algebra"
+        ]
+    },
+    {
+        "course_id": "physics_courses",
+        "course_type": "Physics Courses",
+        "courses": [
+            "Mechanics",
+            "Electricity and Magnetism",
+            "Fluids, Waves, Thermodynamics, and Optics"
+        ]
+    }],
+    "online_training_certificates":[
+    {
+        "learning_platform": "A Cloud Guru",
+        "courses": [
+        {
+            "course_name": "AWS Certified Developer - Associate (DVA-C02)",
+            "certification_location_reference": "./certficates/courses/2E0CFDB23E0F.pdf"
+        },
+        {
+            "course_name": "HashiCorp Certified Terraform Associate",
+            "certification_location_reference": "./certficates/courses/9D3D6C3EE168.pdf"
+        },
+        {
+            "course_name": "Docker Certified Associate (DCA)",
+            "certification_location_reference": "./certficates/courses/FE9E8A93CEE4.pdf"
+        },
+        {
+            "course_name": "Certified Kubernetes Administrator (CKA)",
+            "certification_location_reference": "./certficates/courses/E6BFF76AE508.pdf"
+        },
+        {
+            "course_name": "Linux Foundation Certified Engineer",
+            "certification_location_reference": "./certficates/courses/0240FBB60BB7.pdf"
+        },
+        {
+            "course_name": "Advanced Terraform with Azure",
+            "certification_location_reference": "./certficates/courses/7FA4F62F171F.pdf"
+        },
+        {
+            "course_name": "Advanced Terraform with AWS",
+            "certification_location_reference": "./certficates/courses/A7F35E537CA9.pdf"
+        },
+        {
+            "course_name": "Networking Foundations",
+            "certification_location_reference": "./certficates/courses/E9941773F0B5.pdf"
+        },
+        {
+            "course_name": "AWS Certified Security - Specialty (SCS-C02)",
+            "certification_location_reference": "./certficates/courses/D419A3764718.pdf"
+        },
+        {
+            "course_name": "AWS Certified Advanced Networking - Specialty (ANS-C01)",
+            "certification_location_reference": "./certficates/courses/2E0CFDB23E0F.pdf"
+        },
+        {
+            "course_name": "AWS Certified Machine Learning - Specialty (MLS-C01)",
+            "certification_location_reference": "./certficates/courses/0137F3852C56.pdf"
+        },
+        {
+            "course_name": "Linux Foundation Certified System Administrator (LFCS)",
+            "certification_location_reference": "./certficates/courses/E9F781B35116.pdf"
+        },
+        {
+            "course_name": "The System Administrator's Guide to Bash Scripting",
+            "certification_location_reference": "./certficates/courses/4827507DED9A.pdf"
+        },
+        {
+            "course_name": "Kubernetes Deep Dive",
+            "certification_location_reference": "./certficates/courses/B34BC6BCCDE4.pdf"
+        },
+        {
+            "course_name": "LPI DevOps Tools Engineer Certification",
+            "certification_location_reference": "./certficates/courses/E3BFE107F62F.pdf"
+        },
+        {
+            "course_name": "Using Terraform to Manage Applications and Infrastructure",
+            "certification_location_reference": "./certficates/courses/F6499D3EE9C9.pdf"
+        }
+    ]
+    }]
+}
