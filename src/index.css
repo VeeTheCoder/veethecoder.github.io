@@ -119,12 +119,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f172a;
   color: #ccd6f6;
+  font-size: 18px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- 
 
 
+.wrapper
+{
+	padding-bottom: 90px;
+}
+
+.divider
+{
+	position: relative;
+  height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, #ccd6f6, transparent);
+}

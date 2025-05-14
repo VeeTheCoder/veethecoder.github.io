@@ -1,0 +1,100 @@
+{
+    "skills":[
+        {
+            "skill_name": "Programming Languages",
+            "skill_list": [
+                "C#",
+                "HTML",
+                "Java",
+                "JavaScript",
+                "Kotlin",
+                "PHP",
+                "Python",
+                "SQL",
+                "Swift",
+                "TypeScript",
+                "Visual Basic"
+            ]
+        },
+        {
+            "skill_name": "Development Tools",
+            "skill_list": [
+                "GitKraken",
+                "PhpStorm",
+                "Postman",
+                "SmartGit",
+                "SourceTree",                
+		        "Visual Studio",
+                "Visual Studio Code"
+            ]
+        },     
+        {
+            "skill_name": "DevOps Tools",
+            "skill_list": [
+                "BitBucket Pipelines",
+                "Docker",
+                "Git",
+                "Github Actions",
+                "Kubernetes",
+                "Octopus Deploy",
+                "TeamCity",
+                "Terraform"
+            ]
+        },
+        {
+            "skill_name": "Frameworks",
+            "skill_list": [
+                "ASP.NET Core",
+                "Entity Framework",
+                "Laravel",
+                "Symfony",
+                "Angular"
+            ]
+        },
+        {
+            "skill_name": "Databases",
+            "skill_list": [
+                "MS SQL Server",
+                "MySQL",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "skill_name": "OS Environments",
+            "skill_list": [
+                "Linux (Debian)",
+                "macOS",
+                "Windows"
+            ]
+        },
+        {
+            "skill_name": "Libraries",
+            "skill_list": [
+                "AngularJS",
+                "React"
+            ]
+        }, 
+        {
+            "skill_name": "Cloud Services",
+            "skill_list": [
+                "AWS API Gateway",
+                "AWS Cloudwatch",
+                "AWS DynamoDB",
+                "AWS EC2",
+                "AWS ECR",
+                "AWS ECS",
+                "AWS EventBridge",
+                "AWS IAM",
+                "AWS Lambda",
+                "AWS RDS",
+                "AWS Route 53",
+                "AWS S3",
+                "AWS SNS",
+                "AWS SQS",
+                "AWS SSM",
+                "AWS Secrets Manager",
+                "AWS VPC"
+            ]
+        }
+    ]
+}
