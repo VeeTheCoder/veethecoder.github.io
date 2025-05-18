@@ -15,7 +15,8 @@ const Education: React.FC<Props> = () => {
           <div className="col-span-4 grid grid-cols-4">
             <h4 className="col-span-4 text-2xl font-bold">{educationData["institution"]}</h4>
             <h5 className="col-span-4 font-bold text-xl">{educationData["degree"]}</h5>
-            {educationData.coursework.map((coursework, index) => {
+            {
+            educationData.coursework.map((coursework, index) => {
               return (
                 <div className="col-span-4 2xl:col-span-2 m-4">
                   <div key={index}>
@@ -34,13 +35,15 @@ const Education: React.FC<Props> = () => {
                   </div>
                 </div>
                 );
-              })}
+              })
+            }
 
             <h2 className="col-span-4 text-2xl font-bold">
               Training Courses
             </h2>
 
-            {educationData.online_training_certificates.map((otc, index) => {
+            {
+            educationData.online_training_certificates.map((otc, index) => {
               return (
                 <div key={index} className="col-span-4 2xl:col-span-2 m-4">
                     <h4 className="font-bold text-xl">{otc["learning_platform"]}</h4>
@@ -61,7 +64,8 @@ const Education: React.FC<Props> = () => {
                     </ul>
                 </div>
                 );
-            })}
+              })
+            }
           </div>            
         </div>
       </div>
