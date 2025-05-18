@@ -2,34 +2,42 @@
     "projects": [
         {
             "project_name": "Portfolio Website",
-            "project_description": "A portfolio Website to share my work with you, all carefully crafted using the latest web development technologies. Built from the ground up with React as the foundation, this site is also powered by the precision of TypeScript and the simplicity of Tailwind for styling, all thanks to the speed and efficiency of Vite. ",
+            "project_description": "A portfolio Website to share my work with you, all carefully crafted using the latest web development technologies. Built from the ground up with React as the foundation, this site is also powered by the precision of TypeScript and the simplicity of Tailwind for styling, all thanks to the speed and efficiency of Vite. Take a look around to see what projects I've been working on that showcase my skills in building high-quality web applications.",
             "project_source": "https://github.com/VeeTheCoder/veethecoder.github.io",
             "project_demo": "https://veethecoder.github.io/",
             "tech_stack": [
-                "React", "TypeScript","Tailwind", "Vite"
+                "React", 
+                "TypeScript",
+                "Tailwind", 
+                "Vite"
             ]
         },
         {
             "project_name": "Translation App",
-            "project_description": "A Translation App using Java, which seamlessly integrates with the WorldLingo API to provide accurate translations. The app accepts user input in the form of source text, destination language, and other relevant parameters, and then leverages the API to retrieve the translated output. The resulting translation is then returned to the user with minimal delay, making it an intuitive tool for effortless language conversion.",
+            "project_description": "A Translation App using Java, which seamlessly integrates with the WorldLingo API to provide accurate translations. The app accepts user input in the form of source text, source language, and destination language parameters, and then leverages the API to retrieve the translated output. The resulting translation is then returned to the user with minimal delay, making it an intuitive tool for effortless language conversion.",
             "project_source": "https://github.com/VeeTheCoder/p-2019-translation-app",
             "project_demo": "",
             "tech_stack": [
-                "Java", "Maven", "JUnit"
+                "Java", 
+                "Maven", 
+                "JUnit"
             ]
         },
         {
             "project_name": "BeanMe",
-            "project_description": "BeanMe!, your new go-to app for effortless group ordering on-the-go. Specifically designed for coffee lovers, this Android app streamlines the process of organizing coffee runs with friends by allowing hosts to create events, invite participants, and receive orders directly from within the app. No more scribbling down notes or relying on manual calculations - BeanMe! takes care of everything, making it a seamless experience for both the host and attendees alike. Simply join a run, place your order, and let BeanMe!'s intuitive interface handle the rest!",
+            "project_description": "BeanMe!, go-to app for effortless group ordering on-the-go. Specifically designed for coffee lovers, this Android app streamlines the process of organizing coffee runs with friends by allowing hosts to create events, invite participants, and receive orders directly from within the app. No more scribbling down notes or relying on manual calculations, BeanMe! takes care of everything. Making it a seamless experience for both the host and attendees alike. Simply join a run, place your order, and let BeanMe!'s intuitive interface handle the rest!",
             "project_source": "https://github.com/VeeTheCoder/p-2015-beanme-android",
             "project_demo": "",
             "tech_stack": [
-                "Java", "Gradle", "Parse", "Photoshop"
+                "Java", 
+                "Gradle", 
+                "Parse", 
+                "Photoshop"
             ]
         },
         {
             "project_name": "RegistrarNOW!",
-            "project_description": "RegistrarNOW! is a comprehensive web-based registration system designed to streamline administrative tasks for universities. This user-friendly application empowers Administrators, Professors, and Students to access a range of essential features in one convenient platform. Key benefits include secure messaging with Academic Advising, personalized login capabilities, easy course enrollment, real-time viewable class listings, online personal profile updates, and instant access to grades, class rankings, and grade distributions. With RegistrarNOW!, universities can enhance operational efficiency, improve student engagement, and provide a seamless user experience for all users",
+            "project_description": "RegistrarNOW! is a web-based registration system designed to streamline administrative tasks for universities. This user-friendly application empowers Administrators, Professors, and Students to access a range of essential features in one convenient platform. Key benefits include secure messaging with Academic Advising, personalized login capabilities, easy course enrollment, real-time viewable class listings, online personal profile updates, and instant access to grades, class rankings, and grade distributions. With RegistrarNOW!, universities can enhance operational efficiency, improve student engagement, and provide a seamless user experience for all users",
             "project_source":"https://github.com/VeeTheCoder/p-2015-registrarnow-dotnet",
             "project_demo": "",
             "tech_stack": [
@@ -43,7 +51,7 @@
         },        
         {
             "project_name": "Dopamemes",
-            "project_description": "Dopamemes is a cutting-edge web app that empowers users to unleash their creativity and humor through meme creation and organization. With a companion Chrome extension, this innovative platform allows for seamless integration and effortless meme upload from desktop. Key features include album-based storage, sorting and filtering options, rating system, and drag-and-drop functionality, all within a personalized library for easy access.",
+            "project_description": "Dopamemes is a web app that empowers users to unleash their creativity and humor through meme creation and organization. With a companion Chrome extension, this innovative platform allows for seamless integration and effortless meme upload from desktop. Key features include album-based storage, sorting and filtering options, rating system, and drag-and-drop functionality, all within a personalized library for easy access.",
             "project_source":"https://github.com/VeeTheCoder/p-dopamemes",
             "project_demo": "",
             "tech_stack": [
