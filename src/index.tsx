@@ -15,8 +15,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
     <Banner />
-    <div className="grid xl:grid-cols-8 xl:gap-6 p-15 xl:p-0">
-      <div className="col-start-3 col-span-4">
+    <div className="grid justify-center p-8">
+      <div className="max-w-6xl">
         <section id="about-me" className='py-15'>
           <AboutMe />
         </section>
@@ -39,7 +39,7 @@ createRoot(document.getElementById('root')!).render(
           <Education />
         </section>
 
-        <section id="footer" className='py-15'>
+        <section id="footer" className='pt-15'>
           <Footer />
         </section>
       </div>

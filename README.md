@@ -1,67 +1,14 @@
 
+Welcome to my portfolio website! I'm excited to share my work with you, all carefully crafted using the latest web development technologies. Built from the ground up with React as the foundation, this site is also powered by the precision of TypeScript and the simplicity of Tailwind for styling, all thanks to the speed and efficiency of Vite. Take a look around to see what I've been working on - projects that showcase my skills in building high-quality web applications.
+
 ### `docker build -t vees-portfolio-react-app .`
 
-Builds the docker image from the Dockerfile for the react app
+Builds the docker image from the Dockerfile for the react app.
 
 ### `docker run -p 3000:3000 vees-portfolio-react-app`
 
-Creates and starts a docker container executing the image that was built and specified
+Creates and starts a docker container executing the image that was built and specified.
 
 ### `docker compose up`
 
-Builds the docker image from the Dockerfile for the react app. Creates and starts a docker container executing the image that was built and specified
-
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Builds the docker image from the Dockerfile for the react app. Creates and starts a docker container executing the image that was built and specified.

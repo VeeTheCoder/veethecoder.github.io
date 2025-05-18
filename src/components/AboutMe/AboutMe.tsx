@@ -10,7 +10,7 @@ const AboutMe: React.FC<Props> = () => {
       <img className="object-contain rounded-full" alt="avatar" src={avatarImage} />
       <div className="col-start-2 col-span-4">
         <h1 className="text-4xl font-bold">About Me</h1>
-        <p className="text-lg">{aboutMeData["aboutMe"]}</p>
+        <p>{aboutMeData["aboutMe"]}</p>
       </div>
     </div>
   );

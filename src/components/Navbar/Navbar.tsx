@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar xl:p-4 fixed top-0 z-100 w-full shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-bold">Vee Valand</div>
+        <div className="text-lg px-2 font-bold">Vee Valand</div>
         <div className="hidden xl:flex space-x-4">
           <a href="#home" className="hover:text-white">Home</a>
           <a href="#about-me" className="hover:text-white">About Me</a>
