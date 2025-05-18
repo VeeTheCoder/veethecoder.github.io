@@ -14,12 +14,12 @@ const Education: React.FC<Props> = () => {
         <div className="col-start-2 col-span-4 grid grid-cols-4">
           <div className="col-span-4 grid grid-cols-4">
             <h4 className="col-span-4 text-2xl font-bold">{educationData["institution"]}</h4>
-            <h5 className="col-span-4 font-bold">{educationData["degree"]}</h5>
+            <h5 className="col-span-4 font-bold text-xl">{educationData["degree"]}</h5>
             {educationData.coursework.map((coursework, index) => {
               return (
                 <div className="col-span-4 2xl:col-span-2 m-4">
                   <div key={index}>
-                    <h4 className="font-bold">{coursework["course_type"]}</h4>
+                    <h4 className="font-bold text-xl">{coursework["course_type"]}</h4>
                     <ul className="list-unstyled">
                       {
                         coursework["courses"].map((techstack, index) => {
@@ -36,19 +36,23 @@ const Education: React.FC<Props> = () => {
                 );
               })}
 
-            <h4 className="col-span-4 text-2xl font-bold">Training Courses</h4>
+            <h2 className="col-span-4 text-2xl font-bold">
+              Training Courses
+            </h2>
 
             {educationData.online_training_certificates.map((otc, index) => {
               return (
-                <div className="col-span-4 2xl:col-span-2 m-4">
-                    <h4 className="font-bold">{otc["learning_platform"]}</h4>
-                    <ul className="list-unstyled">
+                <div key={index} className="col-span-4 2xl:col-span-2 m-4">
+                    <h4 className="font-bold text-xl">{otc["learning_platform"]}</h4>
+                    <ul>
                       {
                         otc["courses"].map((courses, index) => {
                         return (
                             <li key={index}>
-                              <a href={courses["certification_location_reference"]}>
-                                {courses["course_name"]}
+                              {courses["course_name"]}
+                              <br />
+                              <a href={courses["certification_location_reference"]} className={""+ (courses["certification_location_reference"] ? 'underline hover:text-white' : 'hidden')}>
+                                Certificate
                               </a>
                             </li>
                         );
