@@ -13,9 +13,22 @@
             ]
         },
         {
+            "project_name": "Pizza Shop API",
+            "project_description": "Streamline your pizzeria's operations with our comprehensive Order Management API! Designed specifically for the demands of a busy pizza shop, this API enables seamless management of every step in the ordering process. Key features include easy creation of custom pizzas, real-time order tracking, and automated status updates to ensure customers receive their orders quickly and efficiently.",
+            "project_source":"https://github.com/VeeTheCoder/p-2020-pizza-shop-api-php",
+            "project_demo": "",
+            "tech_stack": [
+                "PHP", 
+                "PHPUnit", 
+                "Symfony", 
+                "MySQL", 
+                "Doctrine ORM"
+            ]
+        },
+        {
             "project_name": "Translation App",
             "project_description": "A Translation App using Java, which seamlessly integrates with the WorldLingo API to provide accurate translations. The app accepts user input in the form of source text, source language, and destination language parameters, and then leverages the API to retrieve the translated output. The resulting translation is then returned to the user with minimal delay, making it an intuitive tool for effortless language conversion.",
-            "project_source": "https://github.com/VeeTheCoder/p-2019-translation-app",
+            "project_source": "https://github.com/VeeTheCoder/p-2019-translation-app-java",
             "project_demo": "",
             "tech_stack": [
                 "Java", 
@@ -38,11 +51,12 @@
         {
             "project_name": "RegistrarNOW!",
             "project_description": "RegistrarNOW! is a web-based registration system designed to streamline administrative tasks for universities. This user-friendly application empowers Administrators, Professors, and Students to access a range of essential features in one convenient platform. Key benefits include secure messaging with Academic Advising, personalized login capabilities, easy course enrollment, real-time viewable class listings, online personal profile updates, and instant access to grades, class rankings, and grade distributions. With RegistrarNOW!, universities can enhance operational efficiency, improve student engagement, and provide a seamless user experience for all users",
-            "project_source":"https://github.com/VeeTheCoder/p-2015-registrarnow-dotnet",
+            "project_source":"https://github.com/VeeTheCoder/p-2015-registrarnow-csharp",
             "project_demo": "",
             "tech_stack": [
                 "C#",
                 "ASP.NET",
+                "MSTest",
                 "KnockoutJS",
                 "HTML",
                 "CSS",
@@ -52,7 +66,7 @@
         {
             "project_name": "Dopamemes",
             "project_description": "Dopamemes is a web app that empowers users to unleash their creativity and humor through meme creation and organization. With a companion Chrome extension, this innovative platform allows for seamless integration and effortless meme upload from desktop. Key features include album-based storage, sorting and filtering options, rating system, and drag-and-drop functionality, all within a personalized library for easy access.",
-            "project_source":"https://github.com/VeeTheCoder/p-dopamemes",
+            "project_source":"https://github.com/VeeTheCoder/p-dopamemes-javascript",
             "project_demo": "",
             "tech_stack": [
                 "Firebase",
@@ -60,15 +74,6 @@
                 "HTML",
                 "CSS",
                 "Photoshop"
-            ]
-        },
-        {
-            "project_name": "FPGA SHA-1 Hash Module",
-            "project_description": "The FPGA SHA-1 Hash Module is a Verilog-based simulation of the widely used SHA-1 Hash Algorithm, meticulously crafted for high-performance computing. By leveraging parallel processing capabilities, this design efficiently computes 160-bit hash values for input messages with remarkable speed and accuracy. A key innovation lies in its multi-pipeline architecture, which significantly reduces area delay between instruction execution, thereby achieving optimal performance and efficiency.",
-            "project_source":"https://github.com/VeeTheCoder/p-2014-sha1-hash-module",
-            "project_demo": "",
-            "tech_stack": [
-                "Verilog"
             ]
         }
     ]
