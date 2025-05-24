@@ -4,6 +4,7 @@
             "skill_name": "Programming Languages",
             "skill_list": [
                 "C#",
+                "Golang",
                 "HTML",
                 "Java",
                 "JavaScript",
@@ -35,6 +36,7 @@
                 "Docker",
                 "Git",
                 "Github Actions",
+                "Jenkins",
                 "Kubernetes",
                 "Octopus Deploy",
                 "TeamCity",
@@ -44,6 +46,8 @@
         {
             "skill_name": "Frameworks",
             "skill_list": [
+                "VB.NET",
+                "ASP.NET",
                 "ASP.NET Core",
                 "Entity Framework",
                 "Laravel",
@@ -71,7 +75,16 @@
             "skill_name": "Libraries",
             "skill_list": [
                 "AngularJS",
+                "NumPy",
+                "Pandas",
+                "PyTorch",
                 "React"
+            ]
+        }, 
+        {
+            "skill_name": "JavaScript Runtime",
+            "skill_list": [
+                "Node.js"
             ]
         }, 
         {
@@ -85,6 +98,7 @@
                 "AWS ECS",
                 "AWS EventBridge",
                 "AWS IAM",
+                "AWS KMS",
                 "AWS Lambda",
                 "AWS RDS",
                 "AWS Route 53",
