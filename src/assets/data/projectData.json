@@ -37,7 +37,7 @@
             ]
         },
         {
-            "project_name": "BeanMe",
+            "project_name": "BeanMe!",
             "project_description": "BeanMe!, go-to app for effortless group ordering on-the-go. Specifically designed for coffee lovers, this Android app streamlines the process of organizing coffee runs with friends by allowing hosts to create events, invite participants, and receive orders directly from within the app. No more scribbling down notes or relying on manual calculations, BeanMe! takes care of everything. Making it a seamless experience for both the host and attendees alike. Simply join a run, place your order, and let BeanMe!'s intuitive interface handle the rest!",
             "project_source": "https://github.com/VeeTheCoder/p-2015-beanme-android",
             "project_demo": "",
@@ -50,7 +50,7 @@
         },
         {
             "project_name": "RegistrarNOW!",
-            "project_description": "RegistrarNOW! is a web-based registration system designed to streamline administrative tasks for universities. This user-friendly application empowers Administrators, Professors, and Students to access a range of essential features in one convenient platform. Key benefits include secure messaging with Academic Advising, personalized login capabilities, easy course enrollment, real-time viewable class listings, online personal profile updates, and instant access to grades, class rankings, and grade distributions. With RegistrarNOW!, universities can enhance operational efficiency, improve student engagement, and provide a seamless user experience for all users",
+            "project_description": "RegistrarNOW! is a web-based registration system designed to streamline administrative tasks for universities. This user-friendly application that allows Administrators, Professors, and Students to access a range of essential features in one convenient platform. Key benefits include secure messaging with Academic Advising, personalized login capabilities, easy course enrollment, real-time viewable class listings, online personal profile updates, and instant access to grades, class rankings, and grade distributions. With RegistrarNOW!, universities can enhance operational efficiency, improve student engagement, and provide a seamless user experience for all users",
             "project_source":"https://github.com/VeeTheCoder/p-2015-registrarnow-csharp",
             "project_demo": "",
             "tech_stack": [
